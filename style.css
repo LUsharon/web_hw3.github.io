@@ -1,0 +1,251 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 64px;
+    margin: 0;
+    padding: 32px 0 0;
+    display: flex;
+    justify-content: center;
+    max-height: none;
+    min-height: auto;
+    max-width: none;
+    min-width: auto;
+}
+
+svg{
+    display: block;
+    height: 32px;
+    width: 32px;
+    min-height: auto;
+    min-width: auto;
+    overflow: hidden;
+}
+.middle{
+    height: 700px;
+    padding: 80px 80px 80px 80px;
+    min-width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_box{
+    height: 521px;
+    width: 400px;
+    min-height: auto;
+    min-width: auto;
+}
+.slogan{
+    height: 136px;
+    width: 400px;
+    padding: 40px 40px 24px 40px;
+    min-height: auto;
+    min-width: auto;
+}
+.slogan h1{
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-decoration: none solid rgb(45, 51, 58);
+    text-align: center;
+    word-spacing: 0;
+    display: block;
+    height: 48px;
+    width: 320px;
+    margin: 24px 0 0 0;
+}
+.main{
+    height: 385px;
+    width: 400px;
+    padding: 0 40px 40px 40px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+}
+input{
+    /* Font & Text */
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-decoration: none;
+    color: #7a7a83;
+    /* Box */
+    height: 52px;
+    width: 320px;
+    /*border: 1px solid  #C2C8D0;*/
+    border: 1px solid  #7a7a83;
+    padding: 0 16px 0 16px;
+    max-height: none;
+    min-height: auto;
+    max-width: none;
+    min-width: auto;
+    border-radius: 3px;
+    cursor: text;
+    outline: none; /* 移除默认点击后的outline */
+}
+
+/* 新增 */
+input:focus {
+    border-color: #7a7a83; /* 点击后的固定颜色 */
+}
+
+.btn{
+    /* Box */
+    height: 52px;
+    width: 320px;
+    border-radius: 3px;
+    text-align: center;
+    max-width: none;
+    min-width: 0;
+    cursor: pointer;
+}
+.continue{
+    /* Font & Text */
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(38, 161, 130);
+    /*讓外框不會有黑邊*/
+    border: 0;
+    margin: 24px 0 0;
+    padding: 4px 16px;
+    max-height: none;
+    min-height: 52px;
+    list-style-position: initial;
+    /* Effects */
+    transition: background-color 0.25s ease-in-out 0s, box-shadow 0.25s ease-in-out 0s;
+
+}
+
+.no_account{
+    /* Font & Text */
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: rgb(45, 51, 58);
+    /* Box */
+    height: 21px;
+    width: 320px;
+    border: 0;
+    max-height: none;
+    min-height: 0px;
+    max-width: none;
+    min-width: 0px;
+
+}
+.no_account a{
+    line-height: 21px;
+    text-decoration: none;
+    color: rgb(16, 163, 127);
+    padding: 4px;
+}
+
+.line_or{
+    font-family: "ColfaxAI",-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0 0 0;
+
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+.line_or:after, .line_or:before {
+    font-size: 12px;
+    font-weight: 500;
+    font: inherit;
+    -webkit-font-smoothing: antialiased;
+    content: "";
+    border-bottom: 1px solid rgb(194 200 208);
+    flex: 1 0 auto;
+    height: 0.5em;
+    margin: 0;
+    text-align: center;
+    white-space: normal;
+}
+
+.line_or span {
+    /* Font & Text */
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(45, 51, 58);
+    /* Box */
+    height: 12px;
+    width: 45px;
+    max-width: none;
+    min-width: auto;
+}
+.second_login{
+    margin: 24px 0 0 0;
+}
+.second_login a{
+    text-decoration: none solid;
+}
+.third{
+    text-decoration: none solid rgb(45, 51, 58);
+    /* Color & Background */
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 51, 58);
+    /* Box */
+    border: 0.666667px solid rgb(194, 200, 208);
+    margin: 0 0 8px;
+    padding: 0px 8px 0px 0px;
+    /* Effects */
+    transition: box-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s;
+    display: flex;
+    align-items: center;
+}
+.third img{
+    height: 20px;
+    width: 20px;
+    margin-right:16px;
+    margin-left: 16px;
+    display: block;
+}
+.second_login span{
+    /* Font & Text */
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none solid rgb(45, 51, 58);
+    text-align: left;
+    display: block;
+
+}
+.footer{
+    height: 57px;
+    padding: 12px 0 24px 0;
+    min-height: auto;
+    max-width: none;
+    min-width: auto;
+    display: flex;
+    justify-content: center;
+    color: #6E6E80;
+}
+.footer a{
+    font-family: ColfaxAI, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none solid;
+    color: #10A37F;
+    height: 21px;
+    width: 82.3125px;
+    margin: 0 10px 0 10px;
+    min-height: auto;
+    min-width: auto;
+}
